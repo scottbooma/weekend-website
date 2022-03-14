@@ -2,11 +2,12 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(hsl(340, 100%, 75%), hsl(240, 100%, 75%));
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 10%;
     row-gap: 5%;
@@ -14,4 +15,11 @@ body {
 
 img {
     width: 100%;
+}
+
+p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
